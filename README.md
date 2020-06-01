@@ -5,6 +5,7 @@ This repo contains notebooks to download and explore the datasets provided by Th
 The datasets are available from two sources:
 
 - On Kaggle under `Thoth Station <https://www.kaggle.com/thothstation/datasets>`__, where you can also use them directly through Kaggle kernels.
+If you want to work locally, just download the dataset after signing in with your account.
 
 - As git LFS under this repo if you want to work on your local machine.
 
