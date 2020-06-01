@@ -16,13 +16,13 @@ Thoth Team within the office of the CTO at Red Hat has collected datasets that c
 
 ## Datasets
 
-- Solver Dataset
+- Thoth Solver Dataset
 
-### Solver Dataset
+### Thoth Solver Dataset
 
-Solver dataset is based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver).
+Thoth Solver Dataset is based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver).
 
-The Solver dataset is made by 10000 solver reports in json format: ~436Mb.
+Thoth Solver Dataset is made by 10000 solver reports in json format: ~436Mb.
 and it is described in the notebook called [Thoth Solver Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb).
 
 ## How you can use the Data
