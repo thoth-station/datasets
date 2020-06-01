@@ -9,6 +9,7 @@ verify_ssl = true
 jupyter = "*"
 jupyter_contrib_nbextensions = "*"
 jupyter-nbrequirements = "*"
+thoth-lab = "*"
 
 [requires]
 python_version = "3.6"
