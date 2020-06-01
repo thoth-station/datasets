@@ -22,11 +22,12 @@ Thoth Team within the office of the CTO at Red Hat has collected datasets that c
 Solver dataset is based on solver reports created using `Thoth Dependency Solver <https://github.com/thoth-station/solver>`__.
 
 The Solver dataset is made by 10000 solver reports in json format: ~436Mb.
+and it is described in the notebook called `Thoth Solver Dataset <https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb>`__.
 
 ## How you can use the Data
 
 You can download and use this data for free for your own purpose, all we ask is three things
 
-- you cite Thoth Team as the source if you use the data,
-- you accept that you are solely responsible for how you use the data
+- you cite Thoth Team as the source if you use the data;
+- you accept that you are solely responsible for how you use the data;
 - you do not sell this data to anyone, it is free!
