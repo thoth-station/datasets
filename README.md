@@ -4,7 +4,7 @@ This repo contains notebooks to download and explore the datasets provided by Th
 
 The datasets are available from two sources:
 
-- On Kaggle under `Thoth Station <https://www.kaggle.com/thothstation/datasets>`__, where you can also use them directly through Kaggle kernels.
+- On Kaggle under [Thoth Station](https://www.kaggle.com/thothstation/datasets), where you can also use them directly through Kaggle kernels.
 If you want to work locally, just download the dataset after signing in with your account.
 
 - As git LFS under this repo if you want to work on your local machine.
@@ -16,14 +16,14 @@ Thoth Team within the office of the CTO at Red Hat has collected datasets that c
 
 ## Datasets
 
-- Solver Dataset
+- Thoth Solver Dataset
 
-### Solver Dataset
+### Thoth Solver Dataset
 
-Solver dataset is based on solver reports created using `Thoth Dependency Solver <https://github.com/thoth-station/solver>`__.
+Thoth Solver Dataset is based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver).
 
-The Solver dataset is made by 10000 solver reports in json format: ~436Mb.
-and it is described in the notebook called `Thoth Solver Dataset <https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb>`__.
+Thoth Solver Dataset is made by 10000 solver reports in json format: ~436Mb.
+and it is described in the notebook called [Thoth Solver Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb).
 
 ## How you can use the Data
 
