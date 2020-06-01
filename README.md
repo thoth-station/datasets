@@ -31,19 +31,19 @@ and it is described in the notebook called [Thoth Solver Dataset](https://github
 
 1. Install `pipenv`.
 
-.. code-block:: console
-
-  pip install pipenv
+```bash
+pip install pipenv
+```
 
 2. Install the dependencies provided in `Pipfile` and `Pipfile.lock` in an environment.
 
-```python
+```bash
 pipenv install
 ```
 
 3. Start using the notebook provided or work on your own notebook with the dataset.
 
-```python
+```bash
 pipenv run jupyter-notebook
 ```
 
