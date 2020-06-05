@@ -18,16 +18,39 @@ Thoth Team within the office of the CTO at Red Hat has collected datasets that c
 
 - Thoth Solver Dataset
 
+- Thoth Performance Dataset
+
 ### Thoth Solver Dataset
 
-Thoth Solver Dataset is based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver).
+Thoth Solver Dataset is based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver)
+which tries to answer a simple question - what packages will be installed (resolved by pip or any Python compliant dependency resolver) for the provided stack?
 
 Thoth Solver Dataset is made by 10000 solver reports in json format: ~436Mb once extracted. 
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/thoth-solver-dataset-v1.0.zip) ~102.8Mb Git LFS)
 
 and it is described in the notebook called [Thoth Solver Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb).
 
-## Use the dataset after cloning the repo
+### Thoth Performance Dataset
+
+Thoth Performance Dataset has been created with one of the components of Thoth called [Amun](https://github.com/thoth-station/amun-api).
+This service acts as an execution engine for Thoth where applications are built and tested using [Thoth Performance Indicators (PI)](https://github.com/thoth-station/performance).
+Amun can be scheduled through another component in Thoth called [Dependency Monkey](https://github.com/thoth-station/adviser/blob/master/docs/source/dependency_monkey.rst).
+This component aims to automatically verify software stacks and aggregate relevant observations.
+Thoth Performance Dataset contains tests on performance for software stacks for different types of applications (e.g Machine Learning).
+
+Thoth Performance Dataset is made by ~4000 inspection reports in json format: ~46Mb once extracted.
+([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
+
+
+## Working on your branch (Git LFS)
+
+This repository relies on [Git LFS](https://git-lfs.github.com/),
+therefore you need to install `Git LFS` following these [instructions] (https://git-lfs.github.com/)
+in order to use the datasets when you change branch using `git ceckout`.
+
+## Start working on the data
+
+After cloning the repo follow these steps:
 
 1. Install `pipenv`.
 
