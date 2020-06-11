@@ -27,7 +27,6 @@ which tries to answer a simple question - what packages will be installed (resol
 
 Thoth Solver Dataset is made by 10000 solver reports in json format: ~436Mb once extracted. 
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/thoth-solver-dataset-v1.0.zip) ~102.8Mb Git LFS)
-
 and it is described in the notebook called [Thoth Solver Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb).
 
 ### Thoth Performance Dataset
@@ -40,7 +39,7 @@ Thoth Performance Dataset contains tests on performance for software stacks for 
 
 Thoth Performance Dataset is made by ~4000 inspection reports in json format: ~46Mb once extracted.
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
-
+and it is described in the notebook called [Thoth Performance Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/ThothPerformanceDataset.ipynb).
 
 ## Working on your branch (Git LFS)
 
