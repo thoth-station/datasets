@@ -63,7 +63,7 @@ Thoth Security Dataset contains two folders containing outputs from two Thoth Se
 
     that are manually assigned.
 
-2. [SI-cloc](https://github.com/thoth-station/si-cloc)is an analyzer for security indicators based on [cloc](https://github.com/AlDanial/cloc) RPM package
+2. [SI-cloc](https://github.com/thoth-station/si-cloc) is an analyzer for security indicators based on [cloc](https://github.com/AlDanial/cloc) RPM package
     that counts blank lines, comment lines, and physical lines of source code in many programming languages.
     It's important to take into account some of the known [limitations](https://github.com/AlDanial/cloc#limitations-) for this package:
 
