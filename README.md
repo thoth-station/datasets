@@ -43,34 +43,36 @@ and it is described in the notebook called [Thoth Performance Dataset](https://g
 
 ### Thoth Security Dataset
 
-Thoth Security Dataset contains two folder respectively for the two Security Indicators Analzyers:
+Thoth Security Dataset contains two folders containing outputs from two Thoth Security Indicators (SI) Analyzers:
 
-1. [SI-bandit](https://github.com/thoth-station/si-bandit) is an analzer for security indicators based on [bandit](https://pypi.org/project/bandit/) Python package,
-a tool designed to find common security issues in Python code which has different [tests groups](https://readthedocs.org/projects/bandit/downloads/pdf/latest/):
+1. [SI-bandit](https://github.com/thoth-station/si-bandit) is an analyzer for security indicators based on [bandit](https://pypi.org/project/bandit/) Python package,
+    a tool designed to find common security issues in Python code. This Python package has different [classes of tests](https://readthedocs.org/projects/bandit/downloads/pdf/latest/):
 
-- B1xx misc tests
-- B2xx application/framework misconfiguration
-- B3xx blacklists (calls)
-- B4xx blacklists (imports)
-- B5xx cryptography
-- B6xx injection
-- B7xx XSS
+    - B1xx misc tests
+    - B2xx application/framework misconfiguration
+    - B3xx blacklists (calls)
+    - B4xx blacklists (imports)
+    - B5xx cryptography
+    - B6xx injection
+    - B7xx XSS
 
-Each test in a group has two assigned parameters:
+    Each test in a group has two assigned parameters:
 
-- level of SEVERITY.
-- level of CONFIDENCE.
+    - level of SEVERITY.
+    - level of CONFIDENCE.
 
-that are manually assigned.
+    that are manually assigned.
 
-2. [SI-cloc](https://github.com/thoth-station/si-cloc) is an analzer for security indicators based on [cloc](https://github.com/AlDanial/cloc) RPM package
-that counts blank lines, comment lines, and physical lines of source code in many programming languages.
-It's important to take into account some of the known [limitations](https://github.com/AlDanial/cloc#limitations-):
+2. [SI-cloc](https://github.com/thoth-station/si-cloc)is an analyzer for security indicators based on [cloc](https://github.com/AlDanial/cloc) RPM package
+    that counts blank lines, comment lines, and physical lines of source code in many programming languages.
+    It's important to take into account some of the known [limitations](https://github.com/AlDanial/cloc#limitations-) for this package:
 
-- Lines containing both source code and comments are counted as lines of code.
-- Python docstrings can serve several purposes. They may contain documentation, comment out blocks of code,
-or they can be regular strings (when they appear on the right hand side of an assignment or as a function argument). cloc is unable to infer the meaning of docstrings by context; by default cloc treats all docstrings as comments. The switch ``--docstring-as--code`` treats all docstrings as code.
-- Language definition files read with ``--read-lang-def`` or ``--force-lang-def`` must be plain ASCII text files.
+    - Lines containing both source code and comments are counted as lines of code.
+    - Python docstrings can serve several purposes. They may contain documentation, comment out blocks of code,
+    or they can be regular strings (when they appear on the right hand side of an assignment or as a function argument).
+    cloc is unable to infer the meaning of docstrings by context; by default, cloc treats all docstrings as comments.
+    The switch ``--docstring-as--code`` treats all docstrings as code.
+    - Language definition files read with ``--read-lang-def`` or ``--force-lang-def`` must be plain ASCII text files.
 
 Thoth Security Dataset is made by ~990 SI-bandit reports and ~827 SI-cloc reports in json format: ~307Mb once extracted.
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/thoth-security-dataset-v1.0.zip))
