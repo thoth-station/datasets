@@ -262,10 +262,10 @@
         },
         "google-auth": {
             "hashes": [
-                "sha256:25d3c4e457db5504c62b3e329e8e67d2c29a0cecec3aa5347ced030d8700a75d",
-                "sha256:e634b649967d83c02dd386ecae9ce4a571528d59d51a4228757e45f5404a060b"
+                "sha256:5e3f540b7b0b892000d542cea6b818b837c230e9a4db9337bb2973bcae0fc078",
+                "sha256:d6b390d3bb0969061ffec7e5766c45c1b39e13c302691e35029f1ad1ccd8ca3b"
             ],
-            "version": "==1.17.2"
+            "version": "==1.18.0"
         },
         "htmlmin": {
             "hashes": [
@@ -1336,11 +1336,11 @@
         },
         "thoth-lab": {
             "hashes": [
-                "sha256:30e9ed5f6116b30f0bc1bae31cd485ee97a982b1a1912b37ff767a2669917ea3",
-                "sha256:6431f1c077556c76843d19dbe5daf8740a686f7bb9e61277f6ee9354f50b5689"
+                "sha256:11ef0035f47bcfa0a2fbfde6c382a9c65ce49066fb00c3eed749b0b4eab56980",
+                "sha256:84a6e9d0e672232a0fc3bb9459be20d97233b20819c6318c9653d0c199cc4098"
             ],
             "index": "pypi",
-            "version": "==0.2.1"
+            "version": "==0.2.3"
         },
         "thoth-python": {
             "hashes": [
@@ -1351,9 +1351,10 @@
         },
         "thoth-storages": {
             "hashes": [
-                "sha256:02b498854c89d30f3786a6122813be0ca72cea825f646128545a104bc2902c11"
+                "sha256:496eb97f34784e973ab48f043494308f8e0499f39fd908797cb76101b79bcd35",
+                "sha256:7fa52e17f6e20e1f0b95288cdfd0ed6e1a38ac3b9d4eb28fc5347e912aa434f9"
             ],
-            "version": "==0.23.1"
+            "version": "==0.23.2"
         },
         "threadpoolctl": {
             "hashes": [

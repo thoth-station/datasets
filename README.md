@@ -43,7 +43,7 @@ and it is described in the notebook called [Thoth Performance Dataset](https://g
 
 ### Thoth Security Dataset
 
-Thoth Security Dataset contains two folders containing outputs from two Thoth Security Indicators (SI) Analyzers:
+Thoth Security Dataset is made by two folders containing outputs from two Thoth Security Indicators (SI) Analyzers:
 
 1. [SI-bandit](https://github.com/thoth-station/si-bandit) is an analyzer for security indicators based on [bandit](https://pypi.org/project/bandit/) Python package,
     a tool designed to find common security issues in Python code. This Python package has different [classes of tests](https://readthedocs.org/projects/bandit/downloads/pdf/latest/):
