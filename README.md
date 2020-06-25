@@ -20,6 +20,8 @@ Thoth Team within the office of the CTO at Red Hat has collected datasets that c
 
 - Thoth Performance Dataset
 
+- Thoth Security Dataset
+
 ### Thoth Solver Dataset
 
 Thoth Solver Dataset is based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver)
