@@ -14,6 +14,10 @@ If you want to work locally, just download the dataset after signing in with you
 The goal of this repo is to provide datasets widely available and useful for data scientists.
 Thoth Team within the office of the CTO at Red Hat has collected datasets that can be made open source within the IT domain for training Machine Learning models.
 
+## Videos
+
+- [Introduction to Thoth Datasets](https://www.youtube.com/watch?v=_tZo7eIOzJI)
+
 ## Datasets
 
 - Thoth Solver Dataset
