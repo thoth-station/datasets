@@ -9,7 +9,10 @@ verify_ssl = true
 jupyter = "*"
 jupyter_contrib_nbextensions = "*"
 jupyter-nbrequirements = "*"
-thoth-lab = "*"
+thoth-report-processing = "*"
+plotly = "*"
+matplotlib = "*"
+kaleido = "*"
 
 [requires]
 python_version = "3.6"

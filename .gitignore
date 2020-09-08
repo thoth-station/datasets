@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+notebooks/thoth-performance-dataset/performance/
+notebooks/thoth-security-dataset/ThothSecurityCorrelations.ipynb
+notebooks/thoth-security-dataset/bot_knowledge/
+notebooks/thoth-security-dataset/security/
+notebooks/thoth-solver-dataset/solver/
+
+inspections/
