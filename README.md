@@ -20,36 +20,64 @@ Thoth Team within the office of the CTO at Red Hat has collected datasets that c
 
 ## Datasets
 
-- Thoth Solver Dataset
+- Thoth Solver Datasets
 
-- Thoth Performance Dataset
+- Thoth Performance Datasets
 
-- Thoth Security Dataset
+- Thoth Security Datasets
 
-### Thoth Solver Dataset
+### Thoth Solver Datasets
 
-Thoth Solver Dataset is based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver)
+Thoth Solver Datasets are based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver)
 which tries to answer a simple question - what packages will be installed (resolved by pip or any Python compliant dependency resolver) for the provided stack?
+
+#### Thoth Solver Dataset v1.0
 
 Thoth Solver Dataset is made by 10000 solver reports in json format: ~436Mb once extracted. 
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/thoth-solver-dataset-v1.0.zip) ~102.8Mb Git LFS)
 and it is described in the notebook called [Thoth Solver Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb).
 
-### Thoth Performance Dataset
+This notebook explore solver reports and show some of the possible errors that can be identified. If you want to know more just run the notebook!
 
-Thoth Performance Dataset has been created with one of the components of Thoth called [Amun](https://github.com/thoth-station/amun-api).
+One application that was created using this type of dataset is [Solver Error Reporter](https://github.com/thoth-station/solver-errors-reporter).
+It performs Clustering on all errors to identify the class of errors for each solver registered in Thoth. Thanks to this component Thoth Team is able to discover errors
+present in packages and take actions on them or create new advices for users on why something cannot be used.
+
+### Thoth Performance Datasets
+
+Thoth Performance Datasets are created with one of the components of Thoth called [Amun](https://github.com/thoth-station/amun-api).
 This service acts as an execution engine for Thoth where applications are built and tested using [Thoth Performance Indicators (PI)](https://github.com/thoth-station/performance).
 Amun can be scheduled through another component in Thoth called [Dependency Monkey](https://github.com/thoth-station/adviser/blob/master/docs/source/dependency_monkey.rst).
 This component aims to automatically verify software stacks and aggregate relevant observations.
-Thoth Performance Dataset contains tests on performance for software stacks for different types of applications (e.g Machine Learning).
+Thoth Performance Datasets contains tests on performance for software stacks for different types of applications (e.g Machine Learning).
 
-Thoth Performance Dataset is made by ~4000 inspection reports in json format: ~46Mb once extracted.
+#### Thoth Performance Dataset v2.0
+
+Thoth Performance Dataset is made by ~3300 files in json format: ~23Mb once extracted.
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
 and it is described in the notebook called [Thoth Performance Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/ThothPerformanceDataset.ipynb).
 
-### Thoth Security Dataset
+This notebook shows what is the structure of inspections and what information can be find analyzing several ones.
 
-Thoth Security Dataset is made by two folders containing outputs from two Thoth Security Indicators (SI) Analyzers:
+#### Thoth TensorFlow==2.1.0 Stack combinations
+
+Thoth Performance Dataset is made by ~295 inspection reports in json format: ~39Mb once extracted.
+([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
+and it is described in the notebook called [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinations.ipynb).
+
+This notebook will show how Thoth can easily use [Dependency Monkey](https://github.com/thoth-station/adviser/blob/master/docs/source/dependency_monkey.rst)
+and [Amun](https://github.com/thoth-station/amun-api) to create all possible combinations of software stack for a certain package
+([Dependency Monkey Zoo](https://github.com/thoth-station/dependency-monkey-zoo)) and how it can easily identify errors and performance differences across stacks.
+
+Some of the results you can find:
+
+![Performance TensorFlow==2.1.0 Stack Combinations](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-performance-dataset/images/TF==2.1.0 performance (2D plot).png)
+
+If you want to know more just run the notebook!
+
+### Thoth Security Datasets
+
+Thoth Security Datasets contain outputs from two Thoth Security Indicators (SI) Analyzers and aggregated results from those two:
 
 1. [SI-bandit](https://github.com/thoth-station/si-bandit) is an analyzer for security indicators based on [bandit](https://pypi.org/project/bandit/) Python package,
     a tool designed to find common security issues in Python code. This Python package has different [classes of tests](https://readthedocs.org/projects/bandit/downloads/pdf/latest/):
@@ -80,9 +108,21 @@ Thoth Security Dataset is made by two folders containing outputs from two Thoth 
     The switch ``--docstring-as--code`` treats all docstrings as code.
     - Language definition files read with ``--read-lang-def`` or ``--force-lang-def`` must be plain ASCII text files.
 
-Thoth Security Dataset is made by ~990 SI-bandit reports and ~827 SI-cloc reports in json format: ~307Mb once extracted.
-([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/thoth-security-dataset-v1.0.zip))
+#### Thoth Security Dataset v2.0
+
+Thoth Security Dataset is made by ~1 SI-bandit reports and ~6385 SI-cloc reports in json format: ~368.4Mb once extracted.
+([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/thoth-security-dataset-v2.0.zip))
 and it is described in the notebook called [Thoth Security Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/ThothSecurityDataset.ipynb).
+
+This notebook explore results from the two analyzer run in Security Indicator workflow and show the type of analysis and information that Thoth is learning to advice on security.
+
+Some of the results you can find:
+
+![Vulnerabilities Trend across versions](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-security-dataset/images/Vulnerability score for Python Packages.png)
+
+![Vulnerabilities Trend for specific packages](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-security-dataset/images/Vulnerabilities trend for package werkzeug.png)
+
+If you want to know more just run the notebook!
 
 ## Working on your branch (Git LFS)
 
