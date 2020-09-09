@@ -71,7 +71,7 @@ and [Amun](https://github.com/thoth-station/amun-api) to create all possible com
 
 Some of the results you can find:
 
-![Performance TensorFlow==2.1.0 Stack Combinations](https://raw.githubusercontent.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/images/TF==2.1.0 performance (2D plot).png)
+![Performance TensorFlow==2.1.0 Stack Combinations](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-performance-dataset/images/TF2.1.0Performance2DPlot.png)
 
 If you want to know more just run the notebook!
 
@@ -118,9 +118,9 @@ This notebook explore results from the two analyzer run in Security Indicator wo
 
 Some of the results you can find:
 
-![Vulnerabilities Trend across versions](https://raw.githubusercontent.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/images/Vulnerability score for Python Packages.png)
+![Vulnerabilities Trend across versions](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-security-dataset/images/VulnerabilityScorePythonPackages.png)
 
-![Vulnerabilities Trend for specific packages](https://raw.githubusercontent.com/thoth-station/blob/datasets/master/notebooks/thoth-security-dataset/images/Vulnerabilities trend for package werkzeug.png)
+![Vulnerabilities Trend for specific packages](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-security-dataset/images/VulnerabilitiesTrendPackagewerkzeug.png)
 
 If you want to know more just run the notebook!
 
