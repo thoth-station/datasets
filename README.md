@@ -33,7 +33,7 @@ which tries to answer a simple question - what packages will be installed (resol
 
 #### Thoth Solver Dataset v1.0
 
-Thoth Solver Dataset is made by 10000 solver reports in json format: ~436Mb once extracted. 
+This dataset is made by 10000 solver reports in json format: ~436Mb once extracted. 
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/thoth-solver-dataset-v1.0.zip) ~102.8Mb Git LFS)
 and it is described in the notebook called [Thoth Solver Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb).
 
@@ -53,7 +53,7 @@ Thoth Performance Datasets contains tests on performance for software stacks for
 
 #### Thoth Performance Dataset v2.0
 
-Thoth Performance Dataset is made by ~3300 files in json format: ~23Mb once extracted.
+This datasetis made by ~3300 files in json format: ~23Mb once extracted.
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
 and it is described in the notebook called [Thoth Performance Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/ThothPerformanceDataset.ipynb).
 
@@ -61,7 +61,7 @@ This notebook shows what is the structure of inspections and what information ca
 
 #### Thoth TensorFlow==2.1.0 Stack combinations
 
-Thoth Performance Dataset is made by ~295 inspection reports in json format: ~39Mb once extracted.
+This dataset is made by ~295 inspection reports in json format: ~39Mb once extracted.
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
 and it is described in the notebook called [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinations.ipynb).
 
@@ -73,7 +73,24 @@ Some of the results you can find:
 
 ![Performance TensorFlow==2.1.0 Stack Combinations](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-performance-dataset/images/TF2.1.0Performance2DPlot.png)
 
-If you want to know more just run the notebook!
+If you want to know more just run the [notebook](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinations.ipynb)!
+
+#### Thoth TensorFlow==2.1.0 Stack combinations errors discovery
+
+This dataset is made by ~?? inspection reports in json format: ~??Mb once extracted.
+([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
+and it is described in the notebook called [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinationsErrors.ipynb).
+
+Request for this analysis can be found [here](https://github.com/thoth-station/datasets/issues/16), while inputs used to create the dataset for this analysis can be find [here](https://github.com/thoth-station/dependency-monkey-zoo/tree/master/tensorflow/inspection-2020-09-08.1).
+
+This notebook specifically, it's a continuation on the work down for [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinations.ipynb), but in this case we could discover packages that do not allow TensorFlow 2.1.0 to run,
+so that new advices can be created for users that rely on Thoth.
+
+Some of the results you can find:
+
+![TensorFlow==2.1.0 Stack Combinations Errors](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-performance-dataset/images/TF2.1.0PerformanceSoftwareStackCombinationsErrors.png)
+
+If you want to know more just run the [notebook](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinationsErrors.ipynb)!
 
 ### Thoth Security Datasets
 
@@ -110,7 +127,7 @@ Thoth Security Datasets contain outputs from two Thoth Security Indicators (SI) 
 
 #### Thoth Security Dataset v2.0
 
-Thoth Security Dataset is made by ~1 SI-bandit reports and ~6385 SI-cloc reports in json format: ~368.4Mb once extracted.
+This dataset is made by ~1 SI-bandit reports and ~6385 SI-cloc reports in json format: ~368.4Mb once extracted.
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/thoth-security-dataset-v2.0.zip))
 and it is described in the notebook called [Thoth Security Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/ThothSecurityDataset.ipynb).
 
@@ -122,7 +139,7 @@ Some of the results you can find:
 
 ![Vulnerabilities Trend for specific packages](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-security-dataset/images/VulnerabilitiesTrendPackagewerkzeug.png)
 
-If you want to know more just run the notebook!
+If you want to know more just run the [notebook](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/ThothSecurityDataset.ipynb)!
 
 ## Working on your branch (Git LFS)
 
