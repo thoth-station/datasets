@@ -53,7 +53,7 @@ Thoth Performance Datasets contains tests on performance for software stacks for
 
 #### Thoth Performance Dataset v2.0
 
-This datasetis made by ~3300 files in json format: ~23Mb once extracted.
+This dataset is made by ~3300 files in json format: ~23Mb once extracted.
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
 and it is described in the notebook called [Thoth Performance Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/ThothPerformanceDataset.ipynb).
 
