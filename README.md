@@ -77,7 +77,7 @@ If you want to know more just run the [notebook](https://github.com/thoth-statio
 
 #### Thoth TensorFlow==2.1.0 Stack combinations errors discovery
 
-This dataset is made by ~?? inspection reports in json format: ~??Mb once extracted.
+This dataset is made by ~823 files in json format: ~12.5Mb once extracted.
 ([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
 and it is described in the notebook called [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinationsErrors.ipynb).
 
