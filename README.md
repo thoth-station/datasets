@@ -31,11 +31,16 @@ which tries to answer a simple question - what packages will be installed (resol
 ### Thoth Performance Datasets
 
 [Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset) are created with one of the components of Thoth called [Amun](https://github.com/thoth-station/amun-api).
+Amun is a service that executes the given application stack in the requested environment - given the list of package that should be installed as well as given the hardware that is requested to run the application.
 This service acts as an execution engine for Thoth where applications are built and tested using [Thoth Performance Indicators (PI)](https://github.com/thoth-station/performance).
+More information about Amun-API can be found [here](https://github.com/thoth-station/amun-api/blob/master/README.rst).
 Amun can be scheduled through another component in Thoth called [Dependency Monkey](https://github.com/thoth-station/adviser/blob/master/docs/source/dependency_monkey.rst).
-This component aims to automatically verify software stacks and aggregate relevant observations.
-[Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset) contains tests on performance for software stacks for different types of applications (e.g Machine Learning). Moreover using [Thoth Performance Indicators (PI)](https://github.com/thoth-station/performance)
-(e.g. [PIimport](https://github.com/thoth-station/performance/blob/master/tensorflow/import.py)) is possible to discover errors during run of the application.
+Dependency Monkey was designed to automate the evaluation of certain aspects of a software stack, such as code quality or performance.
+Therefore, this component aims to automatically verify software stacks and aggregate relevant observations.
+
+[Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset) contains observations on performance for software stacks
+for different types of applications (e.g Machine Learning) and code quality (e.g. [PIimport](https://github.com/thoth-station/performance/blob/master/tensorflow/import.py) where 
+it is possible to discover errors during run of the application)
 
 ### Thoth Security Datasets
 
