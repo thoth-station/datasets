@@ -25,20 +25,20 @@ You have example of results in each class of datasets.
 
 ### Thoth Solver Datasets
 
-[Thoth Solver Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb) are based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver)
+[Thoth Solver Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset) are based on solver reports created using [Thoth Dependency Solver](https://github.com/thoth-station/solver)
 which tries to answer a simple question - what packages will be installed (resolved by pip or any Python compliant dependency resolver) for the provided stack?
 
 ### Thoth Performance Datasets
 
-[Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb) are created with one of the components of Thoth called [Amun](https://github.com/thoth-station/amun-api).
+[Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset) are created with one of the components of Thoth called [Amun](https://github.com/thoth-station/amun-api).
 This service acts as an execution engine for Thoth where applications are built and tested using [Thoth Performance Indicators (PI)](https://github.com/thoth-station/performance).
 Amun can be scheduled through another component in Thoth called [Dependency Monkey](https://github.com/thoth-station/adviser/blob/master/docs/source/dependency_monkey.rst).
 This component aims to automatically verify software stacks and aggregate relevant observations.
-[Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb) contains tests on performance for software stacks for different types of applications (e.g Machine Learning).
+[Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset) contains tests on performance for software stacks for different types of applications (e.g Machine Learning).
 
 ### Thoth Security Datasets
 
-[Thoth Security Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-solver-dataset/ThothSolverDataset.ipynb) contain outputs from two Thoth Security Indicators (SI) Analyzers and aggregated results from those two:
+[Thoth Security Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/) contain outputs from two Thoth Security Indicators (SI) Analyzers and aggregated results from those two:
 
 1. [SI-bandit](https://github.com/thoth-station/si-bandit) is an analyzer for security indicators based on [bandit](https://pypi.org/project/bandit/) Python package,
     a tool designed to find common security issues in Python code. This Python package has different [classes of tests](https://readthedocs.org/projects/bandit/downloads/pdf/latest/):
