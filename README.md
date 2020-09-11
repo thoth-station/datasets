@@ -34,7 +34,8 @@ which tries to answer a simple question - what packages will be installed (resol
 This service acts as an execution engine for Thoth where applications are built and tested using [Thoth Performance Indicators (PI)](https://github.com/thoth-station/performance).
 Amun can be scheduled through another component in Thoth called [Dependency Monkey](https://github.com/thoth-station/adviser/blob/master/docs/source/dependency_monkey.rst).
 This component aims to automatically verify software stacks and aggregate relevant observations.
-[Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset) contains tests on performance for software stacks for different types of applications (e.g Machine Learning).
+[Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset) contains tests on performance for software stacks for different types of applications (e.g Machine Learning). Moreover using [Thoth Performance Indicators (PI)](https://github.com/thoth-station/performance)
+(e.g. [PIimport](https://github.com/thoth-station/performance/blob/master/tensorflow/import.py)) is possible to discover errors during run of the application.
 
 ### Thoth Security Datasets
 
