@@ -4,15 +4,21 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+jupyterlab-requirements = ">=0.5.0"
+pytest = "*"
+pytest-timeout = "*"
+pytest-cov = "*"
+hypothesis-auto = "*"
+hypothesis = "*"
+pytest-mypy = "*"
+mypy = "*"
+pre-commit = "==2.0.1"
 
 [packages]
-jupyter = "*"
-jupyter_contrib_nbextensions = "*"
-jupyter-nbrequirements = "*"
 thoth-report-processing = "*"
 plotly = "*"
 matplotlib = "*"
 kaleido = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.8"
