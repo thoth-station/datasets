@@ -5,6 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 jupyterlab-requirements = ">=0.5.0"
+pytest = "*"
+pytest-timeout = "*"
+pytest-cov = "*"
+hypothesis-auto = "*"
+hypothesis = "*"
+pytest-mypy = "*"
+mypy = "*"
+pre-commit = "==2.0.1"
 
 [packages]
 thoth-report-processing = "*"

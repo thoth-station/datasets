@@ -39,7 +39,7 @@ Dependency Monkey was designed to automate the evaluation of certain aspects of 
 Therefore, this component aims to automatically verify software stacks and aggregate relevant observations.
 
 [Thoth Performance Datasets](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset) contains observations on performance for software stacks
-for different types of applications (e.g Machine Learning) and code quality (e.g. [PIimport](https://github.com/thoth-station/performance/blob/master/tensorflow/import.py) where 
+for different types of applications (e.g Machine Learning) and code quality (e.g. [PIimport](https://github.com/thoth-station/performance/blob/master/tensorflow/import.py) where
 it is possible to discover errors during run of the application)
 
 ### Thoth Security Datasets
