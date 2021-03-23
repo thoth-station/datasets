@@ -46,3 +46,11 @@ Some of the results you can find:
 ![TensorFlow==2.1.0 Stack Combinations Errors](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-performance-dataset/images/TF2.1.0PerformanceSoftwareStackCombinationsErrors.png)
 
 If you want to know more just run the [notebook](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinationsErrors.ipynb)!
+
+## inspections Analysis 2021-02-09
+
+This dataset is made by ~6081 files in json format: ~102.2Mb once extracted.
+([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/inspectionsAnalysis20210209.zip))
+and it is described in the notebook called [AmunInspectionAnalysis2021-02-09](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/AmunInspectionAnalysis2021-02-09.ipynb).
+
+You can find the reference configuration to recreate the dataset in the Dependency Monkey zoo using this [link](https://github.com/thoth-station/dependency-monkey-zoo/tree/master/tensorflow/inspection-2021-02-09).
