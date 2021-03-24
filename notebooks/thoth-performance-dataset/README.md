@@ -57,6 +57,6 @@ You can find the reference configuration to recreate the dataset in the Dependen
 
 Some of the results you can find:
 
-![TensorFlow==2.4.0 Stack Performances](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-performance-dataset/images/TF==2.4.0 performance (2D plot).png)
+![TensorFlow==2.4.0 Stack Performances](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-performance-dataset/images/PerformanceTensorFlow2.4.0-2DPlot.png)
 
 If you want to know more just run this [notebook](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/AmunInspectionAnalysis2021-02-09.ipynb)!
