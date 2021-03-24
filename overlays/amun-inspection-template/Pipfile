@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+kaleido = "*"
+nbformat = "*"
+plotly = "*"
+thoth-python = "*"
+thoth-report-processing = ">=0.5.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

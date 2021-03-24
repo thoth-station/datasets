@@ -78,29 +78,33 @@ it is possible to discover errors during run of the application)
 ## Working on your branch (Git LFS)
 
 This repository relies on [Git LFS](https://git-lfs.github.com/),
-therefore you need to install `Git LFS` following these [instructions] (https://git-lfs.github.com/)
+therefore you need to install `Git LFS` following these [instructions](https://git-lfs.github.com/)
 in order to use the datasets when you change branch using `git ceckout`.
 
 ## Start working on the data
 
 After cloning the repo follow these steps:
 
-1. Install `pipenv`.
+1. Install `micropipenv` [Ref](https://pypi.org/project/micropipenv/).
 
 ```bash
-pip install pipenv
+pip install micropipenv
 ```
 
-2. Install the dependencies provided in `Pipfile` and `Pipfile.lock` in an environment.
+2. Create and activate virtualenv.
+
+python3 -m venv venv/ && . venv/bin/activate
+
+3. Install the dependencies provided in `Pipfile` and `Pipfile.lock` in an environment.
 
 ```bash
-pipenv install
+(venv) $ micropipenv install --dev
 ```
 
-3. Start using the notebook provided or work on your own notebook with the dataset.
+4. Start using the notebook provided or work on your own notebook with the dataset.
 
 ```bash
-pipenv run jupyter-notebook
+(venv) $ jupyter lab
 ```
 
 ## How you can use the Data
