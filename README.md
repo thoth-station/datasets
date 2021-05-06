@@ -107,6 +107,12 @@ python3 -m venv venv/ && . venv/bin/activate
 (venv) $ jupyter lab
 ```
 
+## Template notebooks
+
+Template notebook unders `notebooks/templates` can be reused to analyze similar data from thoth components reports.
+
+Some template requires specific Thoth environment variables (e.g. adviser templates). Please ask the Thoth Team.
+
 ## How you can use the Data
 
 You can download and use this data for free for your own purpose, all we ask is three things

@@ -3,8 +3,14 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+[packages]
+thoth-report-processing = ">=0.7.0"
+plotly = "*"
+matplotlib = "*"
+kaleido = "*"
+
 [dev-packages]
-jupyterlab-requirements = ">=0.5.0"
+jupyterlab-requirements = ">=0.6.5"
 pytest = "*"
 pytest-timeout = "*"
 pytest-cov = "*"
@@ -12,13 +18,7 @@ hypothesis-auto = "*"
 hypothesis = "*"
 pytest-mypy = "*"
 mypy = "*"
-pre-commit = "==2.0.1"
-
-[packages]
-thoth-report-processing = "*"
-plotly = "*"
-matplotlib = "*"
-kaleido = "*"
+pre-commit = "*"
 
 [requires]
 python_version = "3.8"
