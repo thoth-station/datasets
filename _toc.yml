@@ -1,12 +1,6 @@
 format: jb-book
 root: README
 parts:
-  - caption: Explore template notebooks
-    chapters:
-    - file: notebooks/templates/AdviserFailedRunsAnalysisTemplate
-    - file: notebooks/templates/AdviserMostRequestedStacks
-    - file: notebooks/templates/AdviserSuccessfullLatencyAnalysisTemplate
-    - file: notebooks/templates/AmunInspectionAnalysisTemplate
   - caption: Thoth Performance Dataset
     chapters:
     - file: notebooks/thoth-performance-dataset/README
@@ -24,3 +18,10 @@ parts:
     chapters:
     - file: notebooks/thoth-security-dataset/README
     - file: notebooks/thoth-security-dataset/ThothSecurityDataset
+  - caption: Explore template notebooks
+    chapters:
+    - file: notebooks/templates/README
+    - file: notebooks/templates/AdviserFailedRunsAnalysisTemplate
+    - file: notebooks/templates/AdviserMostRequestedStacks
+    - file: notebooks/templates/AdviserSuccessfullLatencyAnalysisTemplate
+    - file: notebooks/templates/AmunInspectionAnalysisTemplate
