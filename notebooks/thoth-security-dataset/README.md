@@ -44,4 +44,3 @@ Some of the results you can find:
 ![Vulnerabilities Trend for specific packages](https://raw.githubusercontent.com/thoth-station/datasets/master/notebooks/thoth-security-dataset/images/VulnerabilitiesTrendPackagewerkzeug.png)
 
 If you want to know more just run the [notebook](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/ThothSecurityDataset.ipynb)!
-
