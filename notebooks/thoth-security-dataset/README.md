@@ -33,9 +33,7 @@ Thoth Security Datasets contain outputs from two Thoth Security Indicators (SI) 
 
 ## Thoth Security Dataset v2.0
 
-This dataset is made by ~1 SI-bandit reports and ~6385 SI-cloc reports in json format: ~368.4Mb once extracted.
-([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/thoth-security-dataset-v2.0.zip))
-and it is described in the notebook called [Thoth Security Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/ThothSecurityDataset.ipynb).
+This dataset is made by ~1 SI-bandit reports and ~6385 SI-cloc reports in json format: ~368.4Mb once extracted and it is described in the notebook called [Thoth Security Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-security-dataset/ThothSecurityDataset.ipynb).
 
 This notebook explore results from the two analyzer run in Security Indicator workflow and show the type of analysis and information that Thoth is learning to advice on security.
 
