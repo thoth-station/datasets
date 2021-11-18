@@ -2,12 +2,8 @@
 
 This repo contains notebooks to download and explore the datasets provided by Thoth Team.
 
-The datasets are available from two sources:
-
-- On Kaggle under [Thoth Station](https://www.kaggle.com/thothstation/datasets), where you can also use them directly through Kaggle kernels.
+The datasets are available on Kaggle under [Thoth Station](https://www.kaggle.com/thothstation/datasets), where you can also use them directly through Kaggle kernels.
 If you want to work locally, just download the dataset after signing in with your account.
-
-- As [Git LFS](https://git-lfs.github.com/) under this repo if you want to work on your local machine.
 
 ## Overview
 
@@ -74,12 +70,6 @@ it is possible to discover errors during run of the application)
     cloc is unable to infer the meaning of docstrings by context; by default, cloc treats all docstrings as comments.
     The switch ``--docstring-as--code`` treats all docstrings as code.
     - Language definition files read with ``--read-lang-def`` or ``--force-lang-def`` must be plain ASCII text files.
-
-## Working on your branch (Git LFS)
-
-This repository relies on [Git LFS](https://git-lfs.github.com/),
-therefore you need to install `Git LFS` following these [instructions](https://git-lfs.github.com/)
-in order to use the datasets when you change branch using `git ceckout`.
 
 ## Start working on the data
 
