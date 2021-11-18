@@ -8,17 +8,13 @@ Thoth Performance Datasets contains tests on performance for software stacks for
 
 ## Thoth Performance Dataset v2.0
 
-This dataset is made by ~3300 files in json format: ~23Mb once extracted.
-([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
-and it is described in the notebook called [Thoth Performance Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/ThothPerformanceDataset.ipynb).
+This dataset is made by ~3300 files in json format: ~23Mb once extracted and it is described in the notebook called [Thoth Performance Dataset](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/ThothPerformanceDataset.ipynb).
 
 This notebook shows what is the structure of inspections and what information can be find analyzing several ones.
 
 ## Thoth TensorFlow==2.1.0 Stack combinations
 
-This dataset is made by ~295 inspection reports in json format: ~39Mb once extracted.
-([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
-and it is described in the notebook called [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinations.ipynb).
+This dataset is made by ~295 inspection reports in json format: ~39Mb once extracted and it is described in the notebook called [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinations.ipynb).
 
 This notebook will show how Thoth can easily use [Dependency Monkey](https://github.com/thoth-station/adviser/blob/master/docs/source/dependency_monkey.rst)
 and [Amun](https://github.com/thoth-station/amun-api) to create all possible combinations of software stack for a certain package
@@ -32,9 +28,7 @@ If you want to know more just run this [notebook](https://github.com/thoth-stati
 
 ## Thoth TensorFlow==2.1.0 Stack combinations errors discovery
 
-This dataset is made by ~823 files in json format: ~12.5Mb once extracted.
-([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/thoth-performance-dataset-v1.0.zip))
-and it is described in the notebook called [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinationsErrors.ipynb).
+This dataset is made by ~823 files in json format: ~12.5Mb once extracted and it is described in the notebook called [Performance of TensorFlow Software stack combinations](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinationsErrors.ipynb).
 
 Request for this analysis can be found [here](https://github.com/thoth-station/datasets/issues/16), while inputs used to create the dataset for this analysis can be find [here](https://github.com/thoth-station/dependency-monkey-zoo/tree/master/tensorflow/inspection-2020-09-08.1).
 
@@ -49,9 +43,7 @@ If you want to know more just run this [notebook](https://github.com/thoth-stati
 
 ## inspections Analysis 2021-02-09
 
-This dataset is made by ~6081 files in json format: ~102.2Mb once extracted.
-([.zip file](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/inspectionsAnalysis20210209.zip))
-and it is described in the notebook called [AmunInspectionAnalysis2021-02-09](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/AmunInspectionAnalysis2021-02-09.ipynb).
+This dataset is made by ~6081 files in json format: ~102.2Mb once extracted and it is described in the notebook called [AmunInspectionAnalysis2021-02-09](https://github.com/thoth-station/datasets/blob/master/notebooks/thoth-performance-dataset/AmunInspectionAnalysis2021-02-09.ipynb).
 
 You can find the reference configuration to recreate the dataset in the Dependency Monkey zoo using this [link](https://github.com/thoth-station/dependency-monkey-zoo/tree/master/tensorflow/inspection-2021-02-09).
 
