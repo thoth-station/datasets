@@ -1,0 +1,27 @@
+format: jb-book
+root: README
+parts:
+  - caption: Thoth Performance Dataset
+    chapters:
+    - file: notebooks/thoth-performance-dataset/README
+    - file: notebooks/thoth-performance-dataset/AmunInspectionAnalysis2021-02-09
+    - file: notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinationsErrors
+    - file: notebooks/thoth-performance-dataset/PerformanceTensorFlow2.1.0SoftwareStackCombinations
+    - file: notebooks/thoth-performance-dataset/ThothPerformanceDataset
+  - caption: Thoth Solver Dataset
+    chapters:
+    - file: notebooks/thoth-solver-dataset/README
+    - file: notebooks/thoth-solver-dataset/link-of-solver-and-invectio
+    - file: notebooks/thoth-solver-dataset/ThothSolverDataset
+    - file: notebooks/thoth-solver-dataset/ThothSolverDataset-v2.0
+  - caption: Thoth Security Dataset
+    chapters:
+    - file: notebooks/thoth-security-dataset/README
+    - file: notebooks/thoth-security-dataset/ThothSecurityDataset
+  - caption: Explore template notebooks
+    chapters:
+    - file: notebooks/templates/README
+    - file: notebooks/templates/AdviserFailedRunsAnalysisTemplate
+    - file: notebooks/templates/AdviserMostRequestedStacks
+    - file: notebooks/templates/AdviserSuccessfullLatencyAnalysisTemplate
+    - file: notebooks/templates/AmunInspectionAnalysisTemplate
