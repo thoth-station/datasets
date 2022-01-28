@@ -103,6 +103,20 @@ Template notebook unders `notebooks/templates` can be reused to analyze similar 
 
 Some template requires specific Thoth environment variables (e.g. adviser templates). Please ask the Thoth Team.
 
+## Accessing Thoth Data on the Operate-First Public Bucket
+
+A public instance of Thoth's database is available on the [Operate-First Public Bucket](https://github.com/operate-first/apps/blob/master/docs/content/odh/trino/access_public_bucket.md) for external contributors to start developing components of Thoth.
+
+The credentials to the `opf-datacatalog` bucket are accessible [here](https://github.com/operate-first/apps/blob/master/docs/content/odh/trino/access_public_bucket.md). Make sure you have installed the [AWS command line interface](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), and after saving the public credentials in your `~/.aws/credentials` file, you can copy locally the database using:
+
+`aws s3 --endpoint https://s3-openshift-storage.apps.smaug.na.operate-first.cloud cp s3://opf-datacatalog/thoth/datasets/thoth_public_database.sql .`
+
+Eventually specifying a `--profile` if it was set in your credentials file.
+
+Be careful not to store any confidential or valuable information in this bucket as its content can be wiped out at any time.
+
+You can run the [`generate-dump.sh`](https://github.com/thoth-station/datasets/blob/master/generate_dump.sh) script to automatically generate a dump of the database.
+
 ## How you can use the Data
 
 You can download and use this data for free for your own purpose, all we ask is three things
